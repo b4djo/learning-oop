@@ -1,6 +1,6 @@
 <?php
 
-namespace entities\Car;
+namespace app\entities\Car;
 
 /**
  * Автомобиль
