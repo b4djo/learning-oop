@@ -32,7 +32,7 @@ class Car
             throw new \DomainException('Автомобиль должен быть оснащен двигателем и колесами.');
         }
 
-        $this->engine = $engine;
-        $this->wheel = $wheel;
+        $this->engine   = $engine;
+        $this->wheel    = $wheel;
     }
 }
