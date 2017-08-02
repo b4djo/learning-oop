@@ -9,7 +9,3 @@ $car = new \app\entities\Car\Car(
         new \app\entities\Car\WheelType(\app\entities\Car\WheelType::TYPE_CAST), 21, 'black'
     )
 );
-
-echo "<pre>";
-var_dump($car);
-echo "</pre>";
